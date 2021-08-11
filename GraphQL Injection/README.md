@@ -167,7 +167,7 @@ __schema{queryType{name},mutationType{name},types{kind,name,description,fields(i
 ### List path
 
 ```php
-$ git clone https://gitlab.com/dee-see/graphql-path-enum
+$ git clone https://gitlab.com/dee-see/graphql-path-enum.git
 $ graphql-path-enum -i ./test_data/h1_introspection.json -t Skill
 Found 27 ways to reach the "Skill" node from the "Query" node:
 - Query (assignable_teams) -> Team (audit_log_items) -> AuditLogItem (source_user) -> User (pentester_profile) -> PentesterProfile (skills) -> Skill
